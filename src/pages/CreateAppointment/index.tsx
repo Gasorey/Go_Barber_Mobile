@@ -2,8 +2,8 @@ import React from 'react';
 
 import { View } from 'react-native';
 
-const Profile: React.FC = () => {
+const CreateAppointment: React.FC = () => {
   return <View />;
 };
 
-export default Profile;
+export default CreateAppointment;
