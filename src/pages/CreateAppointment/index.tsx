@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import DateTimePicker from '@react-native-community/datetimepicker';
 
 import { View, Text } from 'react-native';
 import { useRoute, useNavigation } from '@react-navigation/native';
@@ -86,6 +87,7 @@ const CreateAppointment: React.FC = () => {
           )}
         />
       </ProvidersListContainer>
+      <DateTimePicker value={new Date()} />
     </Container>
   );
 };
