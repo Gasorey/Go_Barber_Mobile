@@ -30,7 +30,8 @@
   ],
   "rules": {
     "no-unused-expressions":"off",
-    "@typescript-eslint/cammelcase":"off",
+    "import/no-duplicates":"off",
+    "@typescript-eslint/camelcase":"off",
     "prettier/prettier":"error",
     "react/prop-types":"off",
     "react/jsx-props-no-spreading":"off",
